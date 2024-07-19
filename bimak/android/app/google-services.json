@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "112046747779",
+    "project_id": "bimak-aa808",
+    "storage_bucket": "bimak-aa808.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112046747779:android:4d9d780f49e717e80a6bb6",
+        "android_client_info": {
+          "package_name": "com.example.bimak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112046747779-30h9ntrscdro09u8vveeimdlma7rd6ak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bimak",
+            "certificate_hash": "aeb7634c19cf99c97d4f4d6f6ccba7d0064942a2"
+          }
+        },
+        {
+          "client_id": "112046747779-irtecg36ocg7e14tslo2veu733httrbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxhzhavys6Vta-cCPcosxrrJLAmEhv2T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112046747779-irtecg36ocg7e14tslo2veu733httrbc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "112046747779-3eige8puicn5j4tsq05n5vdg25trplkp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bimak"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

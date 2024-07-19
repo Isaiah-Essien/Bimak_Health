@@ -1,0 +1,80 @@
+name: bimak
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+#-------------Packages start here------------#
+dependencies:
+  #-----------Utility packages--------#
+  http: ^1.2.2
+  intl: ^0.19.0
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  flutter_native_splash: ^2.4.0
+  smooth_page_indicator: ^1.1.0
+
+  #-----GOOGLE NAV BAR------#
+  google_nav_bar: ^5.0.6
+
+
+  # Icons
+  cupertino_icons: ^1.0.6
+  iconsax: ^0.0.8
+
+  # State management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  fl_chart: ^0.68.0
+  #-------------------------./Packages End---------#
+
+  flutter:
+    sdk: flutter
+
+  #---------------------Firebase-------------------//
+  firebase_core: ^3.1.1
+  lottie: ^3.1.2
+  connectivity_plus: ^6.0.3
+  firebase_auth: ^5.1.2
+  cloud_firestore: ^5.1.0
+  google_sign_in: ^6.2.1
+  image_picker: ^1.1.2
+  animate_do: ^3.3.4
+  animated_text_kit: ^4.2.2
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+#--------------Some material designs---------#
+flutter:
+  uses-material-design: true
+
+  #---------Local Assets------
+  assets:
+    - assets/images/
+    - assets/logos/
+    - assets/gifs/
+    - assets/icons/
+    - assets/lottie_animations/
+
+  #-----Local Fonts-------#
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto-Light.ttf
+        - asset: assets/fonts/Roboto-LightItalic.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-MediumItalic.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Thin.ttf
+        - asset: assets/fonts/Roboto-ThinItalic.ttf
